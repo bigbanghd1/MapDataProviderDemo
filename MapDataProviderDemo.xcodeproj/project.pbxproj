@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500026D319EF9B3E00DE1A5A /* QbengoMap.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 500026D219EF9B3E00DE1A5A /* QbengoMap.sqlite */; };
 		50688C5C19EE68AF00D2F117 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688C5B19EE68AF00D2F117 /* main.m */; };
 		50688C5F19EE68AF00D2F117 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688C5E19EE68AF00D2F117 /* AppDelegate.m */; };
 		50688C6219EE68AF00D2F117 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688C6119EE68AF00D2F117 /* ViewController.m */; };
@@ -14,6 +15,33 @@
 		50688C6719EE68AF00D2F117 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50688C6619EE68AF00D2F117 /* Images.xcassets */; };
 		50688C6A19EE68AF00D2F117 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50688C6819EE68AF00D2F117 /* LaunchScreen.xib */; };
 		50688C7619EE68B000D2F117 /* MapDataProviderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688C7519EE68B000D2F117 /* MapDataProviderDemoTests.m */; };
+		50688C8319EE690400D2F117 /* dbEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688C8119EE690400D2F117 /* dbEngine.m */; };
+		50688C8419EE690400D2F117 /* qbengo.db in Resources */ = {isa = PBXBuildFile; fileRef = 50688C8219EE690400D2F117 /* qbengo.db */; };
+		50688C9419EE691C00D2F117 /* map.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688C8719EE691C00D2F117 /* map.m */; };
+		50688C9519EE691C00D2F117 /* mapdata.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688C8919EE691C00D2F117 /* mapdata.m */; };
+		50688C9619EE691C00D2F117 /* node.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688C8B19EE691C00D2F117 /* node.m */; };
+		50688C9719EE691C00D2F117 /* node_distance.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688C8D19EE691C00D2F117 /* node_distance.m */; };
+		50688C9819EE691C00D2F117 /* poi.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688C8F19EE691C00D2F117 /* poi.m */; };
+		50688C9919EE691C00D2F117 /* venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688C9119EE691C00D2F117 /* venue.m */; };
+		50688C9A19EE691C00D2F117 /* zoomlevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688C9319EE691C00D2F117 /* zoomlevel.m */; };
+		50688CA619EE692F00D2F117 /* CommonPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688C9D19EE692F00D2F117 /* CommonPoint.m */; };
+		50688CA719EE692F00D2F117 /* PointOfInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688C9F19EE692F00D2F117 /* PointOfInterest.m */; };
+		50688CA819EE692F00D2F117 /* RouteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688CA119EE692F00D2F117 /* RouteNode.m */; };
+		50688CA919EE692F00D2F117 /* VenuePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688CA319EE692F00D2F117 /* VenuePoint.m */; };
+		50688CAA19EE692F00D2F117 /* QbengoMapEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688CA519EE692F00D2F117 /* QbengoMapEngine.m */; };
+		50688CAC19EE694D00D2F117 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50688CAB19EE694D00D2F117 /* CoreGraphics.framework */; };
+		50688CB119EE69F900D2F117 /* PathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688CB019EE69F900D2F117 /* PathHelper.m */; };
+		50688CC319EE6A1900D2F117 /* CHANGES_AND_TODO_LIST.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50688CB419EE6A1900D2F117 /* CHANGES_AND_TODO_LIST.txt */; };
+		50688CC419EE6A1900D2F117 /* CONTRIBUTORS.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50688CB519EE6A1900D2F117 /* CONTRIBUTORS.txt */; };
+		50688CC519EE6A1900D2F117 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50688CB619EE6A1900D2F117 /* LICENSE.txt */; };
+		50688CC619EE6A1900D2F117 /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 50688CB719EE6A1900D2F117 /* README.markdown */; };
+		50688CC719EE6A1900D2F117 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688CBA19EE6A1900D2F117 /* FMDatabase.m */; };
+		50688CC819EE6A1900D2F117 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688CBC19EE6A1900D2F117 /* FMDatabaseAdditions.m */; };
+		50688CC919EE6A1900D2F117 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688CBE19EE6A1900D2F117 /* FMDatabasePool.m */; };
+		50688CCA19EE6A1900D2F117 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688CC019EE6A1900D2F117 /* FMDatabaseQueue.m */; };
+		50688CCB19EE6A1900D2F117 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688CC219EE6A1900D2F117 /* FMResultSet.m */; };
+		50688CCD19EE6A6B00D2F117 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 50688CCC19EE6A6B00D2F117 /* libsqlite3.0.dylib */; };
+		50688CD119EE6CE700D2F117 /* MapDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 50688CD019EE6CE700D2F117 /* MapDataProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		500026D219EF9B3E00DE1A5A /* QbengoMap.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = QbengoMap.sqlite; sourceTree = "<group>"; };
 		50688C5619EE68AF00D2F117 /* MapDataProviderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDataProviderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50688C5A19EE68AF00D2F117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50688C5B19EE68AF00D2F117 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +69,53 @@
 		50688C6F19EE68B000D2F117 /* MapDataProviderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapDataProviderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50688C7419EE68B000D2F117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50688C7519EE68B000D2F117 /* MapDataProviderDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapDataProviderDemoTests.m; sourceTree = "<group>"; };
+		50688C8019EE690400D2F117 /* dbEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbEngine.h; sourceTree = "<group>"; };
+		50688C8119EE690400D2F117 /* dbEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dbEngine.m; sourceTree = "<group>"; };
+		50688C8219EE690400D2F117 /* qbengo.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = qbengo.db; sourceTree = "<group>"; };
+		50688C8619EE691C00D2F117 /* map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
+		50688C8719EE691C00D2F117 /* map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = map.m; sourceTree = "<group>"; };
+		50688C8819EE691C00D2F117 /* mapdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapdata.h; sourceTree = "<group>"; };
+		50688C8919EE691C00D2F117 /* mapdata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapdata.m; sourceTree = "<group>"; };
+		50688C8A19EE691C00D2F117 /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		50688C8B19EE691C00D2F117 /* node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = node.m; sourceTree = "<group>"; };
+		50688C8C19EE691C00D2F117 /* node_distance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node_distance.h; sourceTree = "<group>"; };
+		50688C8D19EE691C00D2F117 /* node_distance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = node_distance.m; sourceTree = "<group>"; };
+		50688C8E19EE691C00D2F117 /* poi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = poi.h; sourceTree = "<group>"; };
+		50688C8F19EE691C00D2F117 /* poi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = poi.m; sourceTree = "<group>"; };
+		50688C9019EE691C00D2F117 /* venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = venue.h; sourceTree = "<group>"; };
+		50688C9119EE691C00D2F117 /* venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = venue.m; sourceTree = "<group>"; };
+		50688C9219EE691C00D2F117 /* zoomlevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zoomlevel.h; sourceTree = "<group>"; };
+		50688C9319EE691C00D2F117 /* zoomlevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zoomlevel.m; sourceTree = "<group>"; };
+		50688C9C19EE692F00D2F117 /* CommonPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonPoint.h; sourceTree = "<group>"; };
+		50688C9D19EE692F00D2F117 /* CommonPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonPoint.m; sourceTree = "<group>"; };
+		50688C9E19EE692F00D2F117 /* PointOfInterest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointOfInterest.h; sourceTree = "<group>"; };
+		50688C9F19EE692F00D2F117 /* PointOfInterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointOfInterest.m; sourceTree = "<group>"; };
+		50688CA019EE692F00D2F117 /* RouteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteNode.h; sourceTree = "<group>"; };
+		50688CA119EE692F00D2F117 /* RouteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteNode.m; sourceTree = "<group>"; };
+		50688CA219EE692F00D2F117 /* VenuePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenuePoint.h; sourceTree = "<group>"; };
+		50688CA319EE692F00D2F117 /* VenuePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenuePoint.m; sourceTree = "<group>"; };
+		50688CA419EE692F00D2F117 /* QbengoMapEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QbengoMapEngine.h; sourceTree = "<group>"; };
+		50688CA519EE692F00D2F117 /* QbengoMapEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QbengoMapEngine.m; sourceTree = "<group>"; };
+		50688CAB19EE694D00D2F117 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50688CAF19EE69F900D2F117 /* PathHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathHelper.h; sourceTree = "<group>"; };
+		50688CB019EE69F900D2F117 /* PathHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathHelper.m; sourceTree = "<group>"; };
+		50688CB419EE6A1900D2F117 /* CHANGES_AND_TODO_LIST.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES_AND_TODO_LIST.txt; sourceTree = "<group>"; };
+		50688CB519EE6A1900D2F117 /* CONTRIBUTORS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTRIBUTORS.txt; sourceTree = "<group>"; };
+		50688CB619EE6A1900D2F117 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		50688CB719EE6A1900D2F117 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		50688CB919EE6A1900D2F117 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		50688CBA19EE6A1900D2F117 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		50688CBB19EE6A1900D2F117 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		50688CBC19EE6A1900D2F117 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		50688CBD19EE6A1900D2F117 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		50688CBE19EE6A1900D2F117 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		50688CBF19EE6A1900D2F117 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		50688CC019EE6A1900D2F117 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		50688CC119EE6A1900D2F117 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		50688CC219EE6A1900D2F117 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		50688CCC19EE6A6B00D2F117 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		50688CCF19EE6CE700D2F117 /* MapDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDataProvider.h; sourceTree = "<group>"; };
+		50688CD019EE6CE700D2F117 /* MapDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDataProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +123,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50688CCD19EE6A6B00D2F117 /* libsqlite3.0.dylib in Frameworks */,
+				50688CAC19EE694D00D2F117 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +144,8 @@
 				50688C5819EE68AF00D2F117 /* MapDataProviderDemo */,
 				50688C7219EE68B000D2F117 /* MapDataProviderDemoTests */,
 				50688C5719EE68AF00D2F117 /* Products */,
+				50688CAB19EE694D00D2F117 /* CoreGraphics.framework */,
+				50688CCC19EE6A6B00D2F117 /* libsqlite3.0.dylib */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +165,13 @@
 				50688C5E19EE68AF00D2F117 /* AppDelegate.m */,
 				50688C6019EE68AF00D2F117 /* ViewController.h */,
 				50688C6119EE68AF00D2F117 /* ViewController.m */,
+				50688CCE19EE6CC700D2F117 /* MapDataProviderDemo */,
+				50688CAD19EE699D00D2F117 /* share */,
+				50688C9B19EE692F00D2F117 /* model */,
+				50688CA419EE692F00D2F117 /* QbengoMapEngine.h */,
+				50688CA519EE692F00D2F117 /* QbengoMapEngine.m */,
+				50688C8519EE691C00D2F117 /* dal */,
+				50688C7F19EE68BC00D2F117 /* db */,
 				50688C6319EE68AF00D2F117 /* Main.storyboard */,
 				50688C6619EE68AF00D2F117 /* Images.xcassets */,
 				50688C6819EE68AF00D2F117 /* LaunchScreen.xib */,
@@ -117,6 +204,117 @@
 				50688C7419EE68B000D2F117 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50688C7F19EE68BC00D2F117 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				50688C8019EE690400D2F117 /* dbEngine.h */,
+				50688C8119EE690400D2F117 /* dbEngine.m */,
+				500026D219EF9B3E00DE1A5A /* QbengoMap.sqlite */,
+				50688C8219EE690400D2F117 /* qbengo.db */,
+			);
+			name = db;
+			sourceTree = "<group>";
+		};
+		50688C8519EE691C00D2F117 /* dal */ = {
+			isa = PBXGroup;
+			children = (
+				50688C8619EE691C00D2F117 /* map.h */,
+				50688C8719EE691C00D2F117 /* map.m */,
+				50688C8819EE691C00D2F117 /* mapdata.h */,
+				50688C8919EE691C00D2F117 /* mapdata.m */,
+				50688C8A19EE691C00D2F117 /* node.h */,
+				50688C8B19EE691C00D2F117 /* node.m */,
+				50688C8C19EE691C00D2F117 /* node_distance.h */,
+				50688C8D19EE691C00D2F117 /* node_distance.m */,
+				50688C8E19EE691C00D2F117 /* poi.h */,
+				50688C8F19EE691C00D2F117 /* poi.m */,
+				50688C9019EE691C00D2F117 /* venue.h */,
+				50688C9119EE691C00D2F117 /* venue.m */,
+				50688C9219EE691C00D2F117 /* zoomlevel.h */,
+				50688C9319EE691C00D2F117 /* zoomlevel.m */,
+			);
+			path = dal;
+			sourceTree = "<group>";
+		};
+		50688C9B19EE692F00D2F117 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				50688C9C19EE692F00D2F117 /* CommonPoint.h */,
+				50688C9D19EE692F00D2F117 /* CommonPoint.m */,
+				50688C9E19EE692F00D2F117 /* PointOfInterest.h */,
+				50688C9F19EE692F00D2F117 /* PointOfInterest.m */,
+				50688CA019EE692F00D2F117 /* RouteNode.h */,
+				50688CA119EE692F00D2F117 /* RouteNode.m */,
+				50688CA219EE692F00D2F117 /* VenuePoint.h */,
+				50688CA319EE692F00D2F117 /* VenuePoint.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		50688CAD19EE699D00D2F117 /* share */ = {
+			isa = PBXGroup;
+			children = (
+				50688CB219EE6A0300D2F117 /* thirdPart */,
+				50688CAE19EE69A500D2F117 /* helper */,
+			);
+			name = share;
+			sourceTree = "<group>";
+		};
+		50688CAE19EE69A500D2F117 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				50688CAF19EE69F900D2F117 /* PathHelper.h */,
+				50688CB019EE69F900D2F117 /* PathHelper.m */,
+			);
+			name = helper;
+			sourceTree = "<group>";
+		};
+		50688CB219EE6A0300D2F117 /* thirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				50688CB319EE6A1900D2F117 /* FMDB */,
+			);
+			name = thirdPart;
+			sourceTree = "<group>";
+		};
+		50688CB319EE6A1900D2F117 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				50688CB419EE6A1900D2F117 /* CHANGES_AND_TODO_LIST.txt */,
+				50688CB519EE6A1900D2F117 /* CONTRIBUTORS.txt */,
+				50688CB619EE6A1900D2F117 /* LICENSE.txt */,
+				50688CB719EE6A1900D2F117 /* README.markdown */,
+				50688CB819EE6A1900D2F117 /* src */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		50688CB819EE6A1900D2F117 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				50688CB919EE6A1900D2F117 /* FMDatabase.h */,
+				50688CBA19EE6A1900D2F117 /* FMDatabase.m */,
+				50688CBB19EE6A1900D2F117 /* FMDatabaseAdditions.h */,
+				50688CBC19EE6A1900D2F117 /* FMDatabaseAdditions.m */,
+				50688CBD19EE6A1900D2F117 /* FMDatabasePool.h */,
+				50688CBE19EE6A1900D2F117 /* FMDatabasePool.m */,
+				50688CBF19EE6A1900D2F117 /* FMDatabaseQueue.h */,
+				50688CC019EE6A1900D2F117 /* FMDatabaseQueue.m */,
+				50688CC119EE6A1900D2F117 /* FMResultSet.h */,
+				50688CC219EE6A1900D2F117 /* FMResultSet.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		50688CCE19EE6CC700D2F117 /* MapDataProviderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				50688CCF19EE6CE700D2F117 /* MapDataProvider.h */,
+				50688CD019EE6CE700D2F117 /* MapDataProvider.m */,
+			);
+			name = MapDataProviderDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +366,7 @@
 				TargetAttributes = {
 					50688C5519EE68AF00D2F117 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = WLQWA7HBB7;
 					};
 					50688C6E19EE68B000D2F117 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -199,9 +398,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50688CC419EE6A1900D2F117 /* CONTRIBUTORS.txt in Resources */,
+				50688CC319EE6A1900D2F117 /* CHANGES_AND_TODO_LIST.txt in Resources */,
+				500026D319EF9B3E00DE1A5A /* QbengoMap.sqlite in Resources */,
 				50688C6519EE68AF00D2F117 /* Main.storyboard in Resources */,
+				50688C8419EE690400D2F117 /* qbengo.db in Resources */,
 				50688C6A19EE68AF00D2F117 /* LaunchScreen.xib in Resources */,
 				50688C6719EE68AF00D2F117 /* Images.xcassets in Resources */,
+				50688CC519EE6A1900D2F117 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +423,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50688C9519EE691C00D2F117 /* mapdata.m in Sources */,
+				50688CC719EE6A1900D2F117 /* FMDatabase.m in Sources */,
 				50688C6219EE68AF00D2F117 /* ViewController.m in Sources */,
+				50688C9A19EE691C00D2F117 /* zoomlevel.m in Sources */,
+				50688CC919EE6A1900D2F117 /* FMDatabasePool.m in Sources */,
+				50688CA719EE692F00D2F117 /* PointOfInterest.m in Sources */,
+				50688CA919EE692F00D2F117 /* VenuePoint.m in Sources */,
+				50688C9719EE691C00D2F117 /* node_distance.m in Sources */,
+				50688CB119EE69F900D2F117 /* PathHelper.m in Sources */,
+				50688CA819EE692F00D2F117 /* RouteNode.m in Sources */,
+				50688C8319EE690400D2F117 /* dbEngine.m in Sources */,
+				50688C9419EE691C00D2F117 /* map.m in Sources */,
+				50688C9919EE691C00D2F117 /* venue.m in Sources */,
+				50688CA619EE692F00D2F117 /* CommonPoint.m in Sources */,
 				50688C5F19EE68AF00D2F117 /* AppDelegate.m in Sources */,
+				50688CAA19EE692F00D2F117 /* QbengoMapEngine.m in Sources */,
+				50688CC619EE6A1900D2F117 /* README.markdown in Sources */,
+				50688CCB19EE6A1900D2F117 /* FMResultSet.m in Sources */,
+				50688C9819EE691C00D2F117 /* poi.m in Sources */,
+				50688C9619EE691C00D2F117 /* node.m in Sources */,
+				50688CCA19EE6A1900D2F117 /* FMDatabaseQueue.m in Sources */,
 				50688C5C19EE68AF00D2F117 /* main.m in Sources */,
+				50688CC819EE6A1900D2F117 /* FMDatabaseAdditions.m in Sources */,
+				50688CD119EE6CE700D2F117 /* MapDataProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +570,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MapDataProviderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +581,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MapDataProviderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +641,7 @@
 				50688C7B19EE68B000D2F117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50688C7C19EE68B000D2F117 /* Build configuration list for PBXNativeTarget "MapDataProviderDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +650,7 @@
 				50688C7E19EE68B000D2F117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
